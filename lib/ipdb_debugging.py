@@ -3,5 +3,8 @@
 import ipdb
 
 def plus_two(num):
-    num + 2
+    num = num + 2
+    print(num)
+    #ipdb.set_trace()
     return num
+    
